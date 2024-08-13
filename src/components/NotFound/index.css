@@ -1,0 +1,76 @@
+/* Empty View + nfImf for both empty and not found*/
+.emptyBg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.emptyImg {
+  height: 70px;
+  width: 50px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.emptyHead {
+  color: #334155;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.emptyPara {
+  color: #475569;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.emptyBtn {
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #2563eb;
+  border: 0px;
+}
+
+.nfImg {
+  height: 180px;
+  width: 200px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .emptyImg {
+    height: 200px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .emptyHead {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .emptyPara {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .emptyBtn {
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+  }
+
+  .nfImg {
+    height: 350px;
+    width: 400px;
+  }
+}

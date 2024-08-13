@@ -1,0 +1,155 @@
+/* Login */
+.loginBg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 8px 10px 0px #0f172a1a;
+  padding: 25px;
+  width: 240px;
+  height: 300px;
+}
+
+.loginHead {
+  color: #304766;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Caveat;
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.inputLabel {
+  color: #334155;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.inputBox {
+  padding: 10px;
+  cursor: text;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.passwordCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.inputBoxP {
+  padding: 10px;
+  cursor: text;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  width: 100%;
+}
+
+.eyeBtn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.eyeIcon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.errorMsg {
+  color: #ef4444;
+  font-size: 13px;
+  margin: 0px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+.loginBtn {
+  cursor: pointer;
+  outline: none;
+  background-color: #304766;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 15px;
+}
+
+@media (min-width: 768px) {
+  .loginForm {
+    width: 485px;
+    min-height: 442px;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 0px 20px 25px 0px #0f172a1a;
+  }
+
+  .loginHead {
+    font-size: 50px;
+    margin-bottom: 80px;
+  }
+
+  .inputLabel {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .inputBox {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .inputBoxP {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .eyeBtn {
+    margin-left: auto;
+  }
+
+  .errorMsg {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .loginBtn {
+    height: 50px;
+    font-size: 20px;
+  }
+}

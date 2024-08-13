@@ -1,0 +1,113 @@
+/* Header */
+.headerLg {
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #304766;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.headerLogo {
+  color: white;
+  font-size: 25px;
+  font-family: Caveat;
+  text-align: center;
+  margin: 0px;
+}
+
+.optionsUl {
+  list-style-type: none;
+  font-family: Roboto;
+  padding: 0px;
+  color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionLi {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.logoutBtn {
+  color: #304766;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: white;
+  border-radius: 8px;
+  height: 33px;
+  width: 80px;
+  text-align: center;
+}
+
+.headerSm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #d0d9e6;
+  min-height: 10vh;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.homeBtn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.homeIcon {
+  height: 18px;
+  width: 18px;
+  margin: 0px;
+}
+.link {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .headerLg {
+    display: flex;
+  }
+
+  .headerSm {
+    display: none;
+  }
+
+  .headerLogo {
+    font-size: 47px;
+  }
+
+  .optionsUl {
+    width: 14%;
+  }
+
+  .optionLi {
+    font-size: 20px;
+  }
+
+  .logoutBtn {
+    height: 48px;
+    width: 110px;
+    font-size: 18px;
+  }
+}

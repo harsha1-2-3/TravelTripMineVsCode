@@ -1,0 +1,90 @@
+.myTripLi {
+  border: 1.5px solid #3047665e;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin: 10px;
+}
+
+.destinationName {
+  color: #334155;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.dateCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateHead {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.datePara {
+  color: #0f0f0fcc;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.cancelBtn {
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 5px;
+  height: 30px;
+  width: 70px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .myTripLi {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .myTripsHead {
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+
+  .destinationName {
+    font-size: 25px;
+    margin: 0px;
+  }
+
+  .dateCont {
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .dateHead {
+    font-size: 20px;
+  }
+
+  .datePara {
+    font-size: 15px;
+  }
+
+  .cancelBtn {
+    height: 40px;
+    width: 100px;
+    margin: 0px;
+    font-size: 18px;
+  }
+}

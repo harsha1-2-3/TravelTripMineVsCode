@@ -1,0 +1,199 @@
+/* My Trips */
+.myTripsBg {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.myTripsHead {
+  color: #334155;
+  font-size: 20px;
+  margin: 0px;
+  text-align: left;
+  margin-left: 13px;
+  margin-bottom: 15px;
+}
+
+.myTripsUl {
+  list-style-type: none;
+  padding-left: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myTripLi {
+  border: 1.5px solid #3047665e;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin: 10px;
+}
+
+.destinationName {
+  color: #334155;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.dateCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateHead {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.datePara {
+  color: #0f0f0fcc;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.cancelBtn {
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 5px;
+  height: 30px;
+  width: 70px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .myTripsBg {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .myTripLi {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .myTripsHead {
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .destinationName {
+    font-size: 27px;
+  }
+
+  .dateCont {
+    justify-content: center;
+  }
+
+  .dateHead {
+    font-size: 20px;
+  }
+
+  .datePara {
+    font-size: 15px;
+  }
+
+  .cancelBtn {
+    height: 40px;
+    width: 100px;
+    margin: 0px;
+    font-size: 18px;
+  }
+}
+
+/* Empty View + nfImf for both empty and not found*/
+.emptyBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.emptyImg {
+  height: 70px;
+  width: 50px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.emptyHead {
+  color: #334155;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.emptyPara {
+  color: #475569;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.emptyBtn {
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #2563eb;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.nfImg {
+  height: 180px;
+  width: 200px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .emptyImg {
+    height: 200px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .emptyHead {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .emptyPara {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .emptyBtn {
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+  }
+
+  .nfImg {
+    height: 350px;
+    width: 400px;
+  }
+}

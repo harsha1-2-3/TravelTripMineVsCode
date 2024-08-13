@@ -1,0 +1,472 @@
+/* this is for booked needed empty styles */
+.bookedImg {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* this is for confirmation for different pages forms,btns etc have same css styles so copy all*/
+.confirmUl {
+  list-style-type: none;
+  padding-left: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.confirmLi {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.confirmHead {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.confirmPara {
+  color: #475569;
+  font-size: 17px;
+  margin: 0px;
+  text-align: left;
+}
+
+/* this is for travel assistance for different pages forms,btns etc have same css styles so copy all*/
+.travelInputCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.travelLabel {
+  color: #334155;
+  font-size: 15px;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.travelHead {
+  color: #334155;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.travelInputBox {
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* this is for guests for different pages forms,btns etc have same css styles so copy all*/
+.guestsUl {
+  list-style-type: none;
+  padding-left: 0px;
+  padding: 0px;
+}
+
+.guestLi {
+  border-bottom: 2px solid #e2e8f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.guestTextCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.guestHead {
+  color: #334155;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.guestPara {
+  color: #5c6777;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.guestsCountCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 35%;
+}
+
+.mpBtn {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.guestCount {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* this is for date section for different pages forms,btns etc have same css styles so copy all*/
+.bookBtnsCont {
+  align-self: flex-end;
+}
+
+.bookPrevBtn {
+  color: #2563eb;
+  background-color: #dbeafe;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 70px;
+  align-self: flex-end;
+  border: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Book my trip both lg sm */
+.bookTripBgLg {
+  background-color: #f1f5f9;
+  padding: 30px;
+  min-height: 90vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bookTripLg {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookTripSidebarUl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 25vw;
+  margin: 0px;
+  padding: 45px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.bookTripSidebarLi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+  min-width: 70%;
+}
+
+.tickIcon {
+  align-self: flex-start;
+  height: 48px;
+  width: 48px;
+  margin-right: 10px;
+}
+
+.numIcon {
+  align-self: flex-start;
+  padding: 0px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #334155;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+  margin: 0px;
+  margin-right: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+.numIconActive {
+  color: white;
+  background-color: #3b82f6;
+}
+
+.numPara {
+  color: #334155;
+  font-size: 18px;
+  margin: 0px;
+  text-align: left;
+}
+
+.numParaActive {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.detailsFormLg {
+  margin: 30px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookTripLgDetailsCont {
+  background-color: #304766;
+  padding: 40px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.bookTripLgHead {
+  color: #f1f5f9;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.bookTripLgPara {
+  color: #f1f5f9;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.bookLgNextBtn {
+  color: white;
+  background-color: #2563eb;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 8px;
+  height: 35px;
+  width: 65px;
+  align-self: center;
+}
+
+.bookTripBgSm {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.smTabsUl {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.smTabLi {
+  border: 2px solid #e7e7e7;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.smTabLiActive {
+  border: 2px solid #2563eb;
+}
+
+.detailsCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailsHead {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.detailsPara {
+  color: #5c6777;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.bookInputCont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.bookInputLabel {
+  color: #334155;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.bookInputIconCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+.bookInputIconContError {
+  border: 1px solid #ef4444;
+}
+
+.bookInputBox {
+  background-color: transparent;
+  border: 0px;
+  cursor: text;
+  outline: none;
+  width: 82%;
+  padding: 10px;
+}
+
+.inputErrorIcon {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  margin: 0px;
+}
+
+.bookErrorMsg {
+  color: #ef4444;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.bookNextBtn {
+  color: white;
+  background-color: #2563eb;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 8px;
+  height: 35px;
+  width: 65px;
+  align-self: flex-end;
+  margin-left: 15px;
+}
+.link {
+  text-decoration: none;
+}
+.bookedCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.detailsFormLgSuccess {
+  margin: 30px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .bookInputBox {
+    width: 90%;
+  }
+  .bookTripBgLg {
+    display: flex;
+  }
+
+  .bookTripBgSm {
+    display: none;
+  }
+
+  .bookedCont {
+    display: none;
+  }
+
+  .detailsCont {
+    display: none;
+  }
+
+  .bookTripLgDetailsCont {
+    display: flex;
+  }
+
+  .bookTripLgHead {
+    font-size: 35px;
+  }
+
+  .bookTripLgPara {
+    font-size: 20px;
+  }
+
+  .bookBtnsCont {
+    align-self: center;
+    justify-content: space-around;
+  }
+  .bookPrevBtn {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .bookedImg {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 20px;
+  }
+}

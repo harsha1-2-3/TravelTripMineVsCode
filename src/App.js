@@ -1,7 +1,7 @@
 // -------------- App.js --------------
 import { Component } from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
-import Login from "./components/Login";
+import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
+import LoginWithRouter from "./components/Login";
 import Home from "./components/Home";
 import BookANewTrip from "./components/BookANewTrip";
 import MyTrips from "./components/MyTrips";
@@ -33,7 +33,7 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    tripsList: "",
+    tripsList: [],
   };
 
   onClickCancel = (id) => {
@@ -60,18 +60,18 @@ class App extends Component {
           onAddTrip: this.onAddTrip,
         }}
       >
-        <Switch>
-          <Route exact path="/login" component={Login} />
-          <ProtectedRoute exact path="/" component={Home} />
-          <ProtectedRoute
-            exact
-            path="/book-a-new-trip"
-            component={BookANewTrip}
-          />
-          <ProtectedRoute exact path="/my-trips" component={MyTrips} />
-          <Route exact path="/not-found" component={NotFound} />
-          <Redirect to="/not-found" />
-        </Switch>
+        <BrowserRouter>
+          <Routes>
+            <Route exact path="/login" element={<LoginWithRouter />} />
+            <Route exact path="/" element={<ProtectedRoute />}>
+              <Route index element={<Home />} />
+              <Route path="book-a-new-trip" element={<BookANewTrip />} />
+              <Route path="my-trips" element={<MyTrips />} />
+            </Route>
+            <Route exact path="/not-found" element={<NotFound />} />
+            <Route path="*" element={<Navigate to="/not-found" />} />
+          </Routes>
+        </BrowserRouter>
       </TripContext.Provider>
     );
   }
