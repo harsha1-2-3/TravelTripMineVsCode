@@ -1201,7 +1201,7 @@ class BookANewTrip extends Component {
         </div>
         <div className="bookTripBgSm">
           <ul className="smTabsUl">
-            {stepsList.map((eachSmStep) => (
+            {stateStepsList.map((eachSmStep) => (
               <li
                 key={`${eachSmStep.stepId}`}
                 className={`smTabLi ${eachSmStep.completed?'smTabLiCompleted':''} ${
